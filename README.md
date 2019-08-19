@@ -1,4 +1,4 @@
-#mern-tracker
+# mern-tracker
 A basic MERN stack application which allows user to enter their tasks/activities which is managed by **MongoDb ATLAS** on the GCP cloud.
 It uses React.js on the front-end and Node.js, express and MongoDb in the backend.
 
@@ -15,14 +15,16 @@ folder
 npm install
 ~~~
 ## Usage
-Start the mongoDB server using the command
+The backend folder manages the backend of the application. In order to run the node server use the commands
+
 ```
-sudo service mongod start
+cd backend
+nodemon server
 ```
 
-Start the node server using the command
+In order to start the React.js application fully function, use the command
 ```
-node app
+npm start
 ```
 
 The app finally starts to run on [localhost](http://localhost:3000/) 
