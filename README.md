@@ -6,7 +6,7 @@ It uses React.js on the front-end and Node.js, express and MongoDb in the backen
 Use the basic git command to clone the repository in the favourable location
 
 ~~~
-git clone https://github.com/tanisha03/mongodb-crud.git
+git clone https://github.com/tanisha03/mern-tracker.git
 ~~~
 
 After the installation is complete, run the following command to ensure all the depencies have been installed in the node_modules 
